@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.liang</groupId>
-    <artifactId>spring-cloud-eureka</artifactId>
+    <artifactId>eureka-cluster</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-eureka</name>
+    <name>eureka-cluster</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

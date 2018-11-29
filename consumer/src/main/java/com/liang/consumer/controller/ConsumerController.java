@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsumerController {
 
     @Autowired
-    com.liang.consumer.service.HelloRemote HelloRemote;
+    com.liang.consumer.remote.HelloRemote HelloRemote;
 
     @RequestMapping("/hello/{name}")
     public String index(@PathVariable("name") String name) {
